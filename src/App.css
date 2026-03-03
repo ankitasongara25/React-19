@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.user-list{
+  display:flex;
+  justify-content: space-around;
+  border:1px solid #aaa;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+.user-list-head{
+  font-size: 20px;
+  font-weight: 800;
+}
+.college .link {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+   
+    color: blueviolet;
+    
+}
+.college .link:hover {
+  background-color: rgb(241, 190, 80);
+  font-size: larger;
+}
+.input {
+border: 2px solid rgba(160, 160, 162, 0.789);
+font-size: medium;
+color: rgba(18, 18, 250, 0.66);
+
+}
+.input.bt:hover{
+  background-color: rgba(64, 64, 241, 0.408);
+}
+.list {
+  background-color: rgb(37, 242, 160);
+}
+.list:hover{
+  color: orange;
+  font-size: larger;
+}
+.error{
+  border: 1px solid rgb(201, 34, 34);
+
+  
+}
+.error:focus{
+  outline: 1px solid red;
+}
+.red-Color{
+  color: red;
+}
+.text{
+  border-radius: 12px;
+  border: 2px solid rgb(154, 154, 166);
+}
+.textBt{
+  background-color:linen;
+outline: 1px solid #61dafbaa;
+}
